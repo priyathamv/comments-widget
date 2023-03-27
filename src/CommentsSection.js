@@ -23,7 +23,7 @@ function CommentsSection({ applicationId, blogId }) {
 
   async function fetchComments() {
 
-    const url = `https://notion-comments-api.priyatham.workers.dev/api/v1/comments?applicationId=${applicationId}&blogId=${blogId}`;
+    const url = `https://comments-api.priyatham.workers.dev/api/v1/comments?applicationId=${applicationId}&blogId=${blogId}`;
     const options = {
       method: 'GET',
       headers: { 'Content-Type': 'application/json' }
@@ -47,7 +47,7 @@ function CommentsSection({ applicationId, blogId }) {
   async function handlePostComment(event) {
     event.preventDefault();
 
-    const url = 'https://notion-comments-api.priyatham.workers.dev/api/v1/comments/save';
+    const url = 'https://comments-api.priyatham.workers.dev/api/v1/comments/save';
     const options = {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
