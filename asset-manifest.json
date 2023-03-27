@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/comments-widget/static/css/main.c7b5c2b4.css",
+    "main.js": "/comments-widget/static/js/main.a609b6df.js",
+    "index.html": "/comments-widget/index.html",
+    "static/media/UserIcon.svg": "/comments-widget/static/media/UserIcon.0c84f68d1c24809ace746a0da782d788.svg",
+    "static/media/SubmitIcon.svg": "/comments-widget/static/media/SubmitIcon.44251ac731f9ca4383efd0ee2d9fec17.svg",
+    "main.c7b5c2b4.css.map": "/comments-widget/static/css/main.c7b5c2b4.css.map",
+    "main.a609b6df.js.map": "/comments-widget/static/js/main.a609b6df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7b5c2b4.css",
+    "static/js/main.a609b6df.js"
+  ]
+}
